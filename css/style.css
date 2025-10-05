@@ -214,3 +214,196 @@ h1, h2, h3 {
         display: flex;
     }
 }
+
+
+
+
+/* ======================== */
+/* === ABOUT PAGE STYLES === */
+/* ======================== */
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    color: var(--primary-mauve);
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid var(--light-mauve);
+    padding-bottom: 5px;
+}
+
+.about-section h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--primary-mauve);
+}
+
+.about-section p {
+    margin-bottom: 1em;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-section ul li {
+    background-color: var(--white);
+    padding: 10px 15px;
+    border-left: 3px solid var(--light-mauve);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.skills-section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    list-style-type: none;
+}
+
+.skills-section h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--dark-text);
+}
+
+.internship-section article {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-top: 1em;
+}
+
+.internship-section h4 {
+    color: var(--light-mauve);
+    margin-top: 1.5em;
+}
+
+
+
+
+/* ======================== */
+/* === PROJECTS PAGE STYLES === */
+/* ======================== */
+
+.projects-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    color: var(--primary-mauve);
+}
+
+.projects-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 2em auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 2em;
+}
+
+.project-card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--light-bg);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    color: var(--primary-mauve);
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+    margin: 0;
+}
+
+.project-card .cta-button {
+    margin-top: 1.5em;
+}
+
+/* Individual Project Page Styling */
+.individual-project-section {
+    padding: 80px 0;
+    display: none; /* Hide individual project pages initially */
+}
+
+.individual-project-section h1 {
+    font-size: 2.5rem;
+    color: var(--primary-mauve);
+    border-bottom: 2px solid var(--light-mauve);
+    padding-bottom: 10px;
+    margin-bottom: 1em;
+}
+
+.individual-project-section h2 {
+    font-size: 1.5rem;
+    color: var(--primary-mauve);
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.individual-project-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.individual-project-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Upcoming Projects Section */
+.upcoming-projects {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.upcoming-projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    color: var(--primary-mauve);
+}
+
+.upcoming-project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.upcoming-project-card {
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px dashed var(--light-mauve);
+    text-align: center;
+    flex-basis: 350px;
+}
+
+.upcoming-project-card h3 {
+    margin-top: 0;
+    color: var(--primary-mauve);
+}

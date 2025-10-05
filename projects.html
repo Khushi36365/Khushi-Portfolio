@@ -33,20 +33,175 @@
     <main>
         <section class="projects-section container">
             <h1>My Projects</h1>
+            <p>Welcome to my Project Showcase, where I bring data, design, and AI together to create impactful and intelligent solutions.</p>
+            <p>Each project reflects my curiosity, technical expertise, and commitment to exploring how AI can enhance accessibility, healthcare, and human interaction.</p>
+
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="images/project1-thumb.jpg" alt="Project 1 Thumbnail">
-                    <h3>Project Title 1</h3>
-                    <p>A brief description of your project. Mention the key technology.</p>
-                    <a href="pages/project1.html" class="cta-button">View Details</a>
+                    <h3>🎙️ Ragify Audio</h3>
+                    <p>Generative AI, Speech Interfaces</p>
+                    <a href="pages/ragify-audio.html" class="cta-button">View Details</a>
                 </div>
                 <div class="project-card">
-                    <img src="images/project2-thumb.jpg" alt="Project 2 Thumbnail">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of your second project.</p>
-                    <a href="pages/project2.html" class="cta-button">View Details</a>
+                    <h3>🩺 KOA Detection</h3>
+                    <p>Deep Learning, Healthcare</p>
+                    <a href="pages/koa-detection.html" class="cta-button">View Details</a>
                 </div>
+                <div class="project-card">
+                    <h3>💬 Mind Sight</h3>
+                    <p>NLP, Mental Health</p>
+                    <a href="pages/mind-sight.html" class="cta-button">View Details</a>
                 </div>
+                <div class="project-card">
+                    <h3>🛍️ Virtual Try-On</h3>
+                    <p>Web Development</p>
+                    <a href="pages/virtual-tryon.html" class="cta-button">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="individual-project-section container" id="ragify-audio-project">
+            <article>
+                <h1>🎙️ Ragify Audio: From Sound to Smart Answers</h1>
+                <p><strong>Year:</strong> 2025</p>
+                <p><strong>Domain:</strong> Generative AI, Conversational Systems</p>
+                <p><strong>Tech Stack:</strong> Python, PyTorch, Transformers, SpeechRecognition, OpenAI APIs</p>
+                
+                <h2>🔍 Overview</h2>
+                <p>Ragify Audio is a voice-enabled conversational AI system that combines Speech-to-Text, LLM reasoning, and Text-to-Speech to create a fully interactive, natural conversation experience.</p>
+                <p>It bridges the gap between humans and machines by enabling hands-free, real-time communication.</p>
+                
+                <h2>⚙️ Key Features</h2>
+                <ul>
+                    <li>Converts user speech to text using transformer-based ASR models.</li>
+                    <li>Generates contextual and intelligent responses using LLMs.</li>
+                    <li>Synthesizes natural speech replies through Text-to-Speech modules.</li>
+                    <li>Enables accessibility and inclusivity for users with limited mobility or visual impairment.</li>
+                </ul>
+
+                <h2>💡 Impact</h2>
+                <ul>
+                    <li>Enhanced accessibility for non-typing users.</li>
+                    <li>Created a multi-modal human-AI interface, improving user engagement.</li>
+                    <li>Demonstrated practical applications of Generative AI in voice automation.</li>
+                </ul>
+                
+                <h2>📈 Challenges & Learnings</h2>
+                <ul>
+                    <li>Fine-tuning pre-trained speech models for low-latency, high-accuracy performance.</li>
+                    <li>Managing conversational context across multiple dialogue turns.</li>
+                    <li>Integration of multiple AI components into one seamless pipeline.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="individual-project-section container" id="koa-detection-project">
+            <article>
+                <h1>🩺 Detection and Prediction of Knee Osteoarthritis Severity</h1>
+                <p><strong>Year:</strong> 2024</p>
+                <p><strong>Domain:</strong> Deep Learning, Medical Imaging</p>
+                <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras, OpenCV, Scikit-learn</p>
+
+                <h2>🔍 Overview</h2>
+                <p>This project focuses on automated detection and grading of Knee Osteoarthritis (KOA) from X-ray images using Convolutional Neural Networks (CNNs). It aims to assist radiologists in faster diagnosis and consistent severity classification.</p>
+
+                <h2>⚙️ Approach</h2>
+                <ul>
+                    <li>Utilized MobileNetV2 and ResNet101 architectures for feature extraction.</li>
+                    <li>Applied transfer learning to improve accuracy on a small medical dataset.</li>
+                    <li>Enhanced performance using data augmentation and hybrid models combining deep features with ML classifiers (e.g., KNN).</li>
+                </ul>
+
+                <h2>📊 Results</h2>
+                <ul>
+                    <li>Achieved 72% accuracy using MobileNetV2 + KNN hybrid model.</li>
+                    <li>Improved robustness with augmented datasets and tuned hyperparameters.</li>
+                </ul>
+
+                <h2>💡 Key Insights</h2>
+                <ul>
+                    <li>Transfer learning greatly reduces training time and improves medical image accuracy.</li>
+                    <li>Combining deep and traditional ML features provides better interpretability.</li>
+                    <li>The project strengthened my understanding of AI for healthcare applications.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="individual-project-section container" id="mind-sight-project">
+            <article>
+                <h1>💬 Mind Sight: Depression Detection using NLP</h1>
+                <p><strong>Year:</strong> 2024</p>
+                <p><strong>Domain:</strong> Natural Language Processing, Mental Health</p>
+                <p><strong>Tech Stack:</strong> Python, NLTK, Scikit-learn, Pandas</p>
+
+                <h2>🔍 Overview</h2>
+                <p>Mind Sight is an AI-powered text-based mental health detection system that predicts whether a person might be showing signs of depression based on textual data. The model uses NLP techniques to analyze linguistic patterns, tone, and sentiment.</p>
+
+                <h2>⚙️ Methodology</h2>
+                <ul>
+                    <li>Collected labeled datasets containing text samples.</li>
+                    <li>Performed text preprocessing (tokenization, stopword removal, lemmatization).</li>
+                    <li>Extracted linguistic features using TF-IDF and sentiment analysis.</li>
+                    <li>Trained classifiers like Logistic Regression and Random Forest for prediction.</li>
+                </ul>
+
+                <h2>📈 Achievements</h2>
+                <ul>
+                    <li>Built a lightweight, interpretable model for early mental health screening.</li>
+                    <li>Demonstrated how AI can support mental wellness through empathetic analysis.</li>
+                </ul>
+
+                <h2>💡 Learnings</h2>
+                <ul>
+                    <li>Handling imbalanced emotional datasets.</li>
+                    <li>Importance of linguistic nuance in AI-based sentiment analysis.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="individual-project-section container" id="virtual-try-on-project">
+            <article>
+                <h1>🛍️ Virtual Try-On Shopping Mall</h1>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Domain:</strong> Web Development, User Experience</p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Figma</p>
+
+                <h2>🔍 Overview</h2>
+                <p>A browser-based virtual try-on tool that enables users to preview fashion products in real time, enhancing online shopping experiences through interactivity and visualization.</p>
+
+                <h2>⚙️ Features</h2>
+                <ul>
+                    <li>Live preview of clothing and accessories.</li>
+                    <li>Responsive, intuitive front-end built from scratch.</li>
+                    <li>User-friendly navigation and design principles inspired by modern e-commerce UIs.</li>
+                </ul>
+
+                <h2>🎯 Outcome</h2>
+                <ul>
+                    <li>Improved understanding of front-end architecture and interactive UI design.</li>
+                    <li>Applied Figma-based wireframing to prototype efficiently before development.</li>
+                </ul>
+
+                <h2>💡 Skills Gained</h2>
+                <ul>
+                    <li>Front-end logic building, DOM manipulation, and responsive design.</li>
+                    <li>Integration of design and coding workflows.</li>
+                </ul>
+            </article>
+        </section>
+        
+        <section class="upcoming-projects container">
+            <h2>🌟 Future Projects (Coming Soon)</h2>
+            <div class="upcoming-project-grid">
+                <div class="upcoming-project-card">
+                    <h3>⚖️ AI Courtroom Simulator</h3>
+                    <p>An AI-driven virtual courtroom where LLM-based agents simulate real trials, helping users practice legal reasoning and decision-making.</p>
+                </div>
+                <div class="upcoming-project-card">
+                    <h3>🩻 Report Generation from X-Ray Images</h3>
+                    <p>An AI model that analyzes X-rays and automatically generates diagnostic reports using computer vision and NLP.</p>
+                </div>
+            </div>
         </section>
     </main>
 
